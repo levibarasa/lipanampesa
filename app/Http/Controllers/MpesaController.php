@@ -73,7 +73,7 @@ class MpesaController extends Controller
             'PartyB' => 174379,
             'PhoneNumber' => $phoneNumber, 
             'CallBackURL' => 'https://7db63514dbd1.ngrok.io/api/stk/push/callback/url',
-            'AccountReference' => "Simon's Tech School Payment",
+            'AccountReference' => "BACY ICT Solutions Limited",
             'TransactionDesc' => "lipa Na M-PESA"
         ];
 

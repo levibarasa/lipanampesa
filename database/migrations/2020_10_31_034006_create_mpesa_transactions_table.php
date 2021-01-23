@@ -25,8 +25,8 @@ class CreateMpesaTransactionsTable extends Migration
             $table->decimal('OrgAccountBalance',8,2)->default(200);
             $table->string('ThirdPartyTransID')->default('pay');
             $table->string('MSISDN')->default('pay');
-            $table->string('FirstName')->default('Simon');
-            $table->string('MiddleName')->default('Angatia');
+            $table->string('FirstName')->default('Levi');
+            $table->string('MiddleName')->default('Barasa');
             $table->string('LastName')->default('pay');
             $table->text('response')->default('response');
             $table->timestamps();
